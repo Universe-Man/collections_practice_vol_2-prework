@@ -61,9 +61,9 @@ def count_elements(array)
     name = hash[:name]
 
     #binding.pry
-    array.each do |hash|
+    array.each do |data|
   #    binding.pry
-      if hash[:name] == name
+      if data[:name] == name
         hash[:count] += 1
       end
      end
