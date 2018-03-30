@@ -51,4 +51,5 @@ def remove_non_strings(array)
     end
     i += 1
   end
+  array
 end
