@@ -58,18 +58,19 @@ end
 def count_elements(array)
   array.each do |hash|
     hash[:count] = 0
+  end
   newArray = []
   i = 0
   until i == array.length
     theCount = array.count(array[i])
 
     if newArray.include?(array[i])
-    
+
     else
     newArray.push(array[i])
-  
+
     newArray[i][:count] = theCount
-    
+
     end
     i += 1
   end
