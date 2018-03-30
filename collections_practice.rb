@@ -65,7 +65,6 @@ def count_elements(array)
     if newArray.include?(array[i])
       binding.pry
     else
-      binding.pry
     newArray.push(array[i])
     binding.pry
     newArray[i][:count] = theCount
