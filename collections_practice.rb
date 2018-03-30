@@ -57,17 +57,11 @@ end
 
 def count_elements(array)
   newArray = []
-
-  counter = 0
   i = 0
-
   until i == array.length
     theCount = array.count(array[i])
-    newArray.push({})
-    binding.pry
-    if array[i] == array[i + 1]
-      counter += 1
-    end
+    newArray.push(array[i])
+    newArray.push({:count=>theCount})
     i += 1
   end
 end
