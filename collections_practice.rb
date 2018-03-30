@@ -54,3 +54,13 @@ def remove_non_strings(array)
   end
   newArray
 end
+
+def count_elements(array)
+  counter = 0
+  i = 0
+  binding.pry
+  until i == array.length
+    if array[i]
+    end
+  end
+end
