@@ -69,5 +69,6 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
+  data[0].values.map.with_index {|v, i| keys[i].merge(v)}
 #binding.pry
 end
