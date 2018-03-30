@@ -61,14 +61,19 @@ def count_elements(array)
   i = 0
   until i == array.length
     theCount = array.count(array[i])
+    binding.pry
     if newArray.include?(array[i])
+      binding.pry
     else
+      binding.pry
     newArray.push(array[i])
+    binding.pry
     array[i][:count] = theCount
+    binding.pry
     end
     i += 1
     binding.pry
   end
-
+binding.pry
   newArray
 end
