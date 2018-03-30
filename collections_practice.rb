@@ -34,5 +34,6 @@ def first_wa(array)
     if array[i].start_with?("wa")
       return array[i]
     end
+    i += 1
   end
 end
