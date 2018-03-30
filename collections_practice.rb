@@ -40,10 +40,3 @@ def first_wa(array)
     i += 1
   end
 end
-
-
-      return array[i]
-    end
-    i += 1
-  end
-end
