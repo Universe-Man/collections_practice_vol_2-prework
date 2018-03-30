@@ -64,4 +64,5 @@ def count_elements(array)
     newArray.push({:count=>theCount})
     i += 1
   end
+  newArray
 end
