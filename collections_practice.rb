@@ -27,3 +27,12 @@ def contain_a(array)
   end
   return answerArray
 end
+
+def first_wa(array)
+  i = 0
+  until i == array.length
+    if array[i].start_with?("wa")
+      return array[i]
+    end
+  end
+end
