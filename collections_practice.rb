@@ -32,8 +32,10 @@ def first_wa(array)
   i = 0
   until i == array.length
     if array[i].class == :symbol.class
-       array[i].to_s
-       binding.pry
+       string = array[i].to_s
+       if string.start_with?("wa")
+         return string
+       end
     end
     if array[i].start_with?("wa")
       return array[i]
