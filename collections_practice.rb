@@ -67,3 +67,7 @@ def count_elements(array)
   end#.uniq
   array.uniq
 end
+
+def merge_data
+
+end
