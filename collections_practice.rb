@@ -70,4 +70,5 @@ end
 
 def merge_data(keys, data)
 # binding.pry
+keys.merge(data)
 end
