@@ -56,10 +56,15 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
+  newArray = []
+  
   counter = 0
   i = 0
 
   until i == array.length
+    theCount = array.count(array[i])
+    newArray.push({})
+    binding.pry
     if array[i] == array[i + 1]
       counter += 1
     end
