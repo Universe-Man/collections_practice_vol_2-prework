@@ -36,8 +36,7 @@ def first_wa(array)
        if string.start_with?("wa")
          return string
        end
-    end
-    if array[i].start_with?("wa")
+    elsif array[i].start_with?("wa")
       return array[i]
     end
     i += 1
