@@ -15,3 +15,15 @@ def begins_with_r(array)
     return false
   end
 end
+
+def contain_a(array)
+  answerArray = []
+  i = 0
+  until i == array.length
+    if array[i].include?("a")
+      answerArray.push(array[i])
+    end
+    i += 1
+  end
+  return answerArray
+end
