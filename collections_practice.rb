@@ -66,7 +66,8 @@ def count_elements(array)
     array[i][:count] = theCount
     end
     i += 1
+    binding.pry
   end
-  binding.pry
+  
   newArray
 end
