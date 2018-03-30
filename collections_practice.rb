@@ -68,6 +68,6 @@ def count_elements(array)
     i += 1
     binding.pry
   end
-  
+
   newArray
 end
