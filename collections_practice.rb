@@ -69,6 +69,6 @@ def count_elements(array)
 end
 
 def merge_data(keys, data)
-# binding.pry
+binding.pry
 keys.merge(data)
 end
