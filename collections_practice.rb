@@ -58,7 +58,7 @@ end
 def count_elements(array)
   counter = 0
   i = 0
-  binding.pry
+
   until i == array.length
     if array[i] == array[i + 1]
       counter += 1
