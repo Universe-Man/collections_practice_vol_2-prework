@@ -65,5 +65,5 @@ def count_elements(array)
       end
      end
   end#.uniq
-#  array.uniq
+  array.uniq
 end
