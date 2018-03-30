@@ -42,3 +42,13 @@ def first_wa(array)
     i += 1
   end
 end
+
+def remove_non_strings(array)
+  i = 0
+  until i == array.length
+    if array[i].class == "string".class
+      array.delete(array[i])
+    end
+    i += 1
+  end
+end
