@@ -63,10 +63,9 @@ def count_elements(array)
     if newArray.include?(array[i])
     else
     newArray.push(array[i])
-    newArray.push({:count=>theCount})
+    array[i][:count] = theCount
     end
     i += 1
   end
-  binding.pry
   newArray
 end
