@@ -64,6 +64,6 @@ def count_elements(array)
         hash[:count] += 1
       end
      end
-  end.uniq
+  end#.uniq
 #  array.uniq
 end
