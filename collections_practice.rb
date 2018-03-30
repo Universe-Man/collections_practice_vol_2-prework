@@ -58,6 +58,11 @@ end
 def count_elements(array)
   array.each do |hash|
     hash[:count] = 0
+
     binding.pry
+    array.each do |hash|
+      binding.pry
+      if hash[:name] ==
+
   end
 end
