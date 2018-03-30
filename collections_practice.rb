@@ -56,18 +56,20 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
+  array.each do |hash|
+    hash[:count] = 0
   newArray = []
   i = 0
   until i == array.length
     theCount = array.count(array[i])
-    binding.pry
+
     if newArray.include?(array[i])
-      binding.pry
+    
     else
     newArray.push(array[i])
-    binding.pry
+  
     newArray[i][:count] = theCount
-    binding.pry
+    
     end
     i += 1
   end
