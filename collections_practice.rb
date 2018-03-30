@@ -56,7 +56,6 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  binding.pry
   newArray = []
   i = 0
   until i == array.length
@@ -71,8 +70,6 @@ def count_elements(array)
     binding.pry
     end
     i += 1
-    binding.pry
   end
-binding.pry
   newArray
 end
