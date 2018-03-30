@@ -60,8 +60,11 @@ def count_elements(array)
   i = 0
   until i == array.length
     theCount = array.count(array[i])
+    if newArray.include?(array[i])
+    else
     newArray.push(array[i])
     newArray.push({:count=>theCount})
+    end
     i += 1
   end
   newArray
