@@ -57,7 +57,7 @@ end
 
 def count_elements(array)
   newArray = []
-  
+
   counter = 0
   i = 0
 
