@@ -60,7 +60,8 @@ def count_elements(array)
   i = 0
   binding.pry
   until i == array.length
-    if array[i]
+    if array[i] == array[i + 1]
+      counter += 1
     end
   end
 end
